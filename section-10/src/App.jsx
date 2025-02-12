@@ -12,6 +12,7 @@ function App() {
   function handleAddItemToCart(id) {
     setShoppingCart((prevShoppingCart) => {
       const updatedItems = [...prevShoppingCart.items];
+      console.log('it works');
 
       const existingCartItemIndex = updatedItems.findIndex(
         (cartItem) => cartItem.id === id
