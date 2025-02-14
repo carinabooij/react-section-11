@@ -1,0 +1,1 @@
+side effects are 'tasks' that don't impact the current component render cycle
